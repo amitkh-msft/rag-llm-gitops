@@ -15,6 +15,7 @@ vllmServingRuntime:
     - "--gpu-memory-utilization"
     - "0.98"
     - "--enforce-eager"
+
 populateDbJob:
   repoSources:
     - repo: https://github.com/RHEcosystemAppEng/llm-on-openshift.git
